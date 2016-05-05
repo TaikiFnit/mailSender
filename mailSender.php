@@ -9,11 +9,10 @@
         ''}
 */
 
-define('TO', 'homeytouhoku@gmail.com');
+define('TO', 'example@email.com');
 
 $to = TO;
-//$subject = 'Reseive email from ' . $_POST['name'];
-$subject = "HOMEY お問い合わせフォームより";
+$subject = 'Reseive email from ' . $_POST['name'];
 $message = $_POST['message'];
 $message .=
 '
